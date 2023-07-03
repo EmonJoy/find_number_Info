@@ -7,15 +7,18 @@ from phonenumbers import timezone , geocoder, carrier
 
 fig = pyfiglet.figlet_format("TTF Number INFO Gathering", font = "digital")
 print(fig)
+
 class color:
     red = Fore.RED
     green = Fore.GREEN
     cyan = Fore.LIGHTCYAN_EX
     bright_style = Style.BRIGHT
     back_style = Back.GREEN
+    
 class clock:
     clc = datetime.datetime.now()
     main_TYM = clc.strftime("%H/%D/%M")
+    
 print(color.cyan+color.bright_style+"CODDED BY MR MORNINGSTAR.")
 print("Loading...")
 time.sleep(2)
